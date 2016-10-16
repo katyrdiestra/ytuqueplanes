@@ -2,9 +2,10 @@
 list-style: none;
 padding: 0;
 margin:0
-}.menu li {
+}
+.menu li {
 display: inline-block;
-font-size: 18px;
+font-size: 20px;
 background: #FF0000;
 }
 .menu li a{
@@ -15,6 +16,7 @@ background: #FF0000;
 	font-weight: bold;
 }
 .fondo-menu{
+	background: red;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 20px;
@@ -91,14 +93,7 @@ background: #FF0000;
 	border-radius: 5px;
 	float: right;
 }
-<.fondo-footer ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.fondo-footer ul li a{
-	color: #000;
-}
+
 .titulos-footer{
 	color: #CB7307;
 	font-size: 20px;
@@ -113,4 +108,20 @@ background: #FF0000;
 	height: 500px;
 	padding: 100px;
 	color: #FFF;
+}
+.cuadro-imagen{
+	border: 5px solid: #999999;
+	padding: 10px;
+	color: black;
+}
+.fondo-footer{
+	background: url("img/bg_footer.png") no-repeat center center;
+	height: 200px;
+	padding: 50px;
+	background: red;
+	color: #000;
+	display: block;
+	font-weight: bold;
+
+	
 }

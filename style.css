@@ -1,5 +1,116 @@
+.menu {
+list-style: none;
+padding: 0;
+margin:0
+}.menu li {
+display: inline-block;
+font-size: 18px;
+background: #FF0000;
+}
+.menu li a{
+	color: #FFF;
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.fondo-menu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.banner{
+	/* la propiedad background permite colocar un color o imagen de fondo */
+	background: url("img/fondo-portada.jpg") no-repeat center center;
+	height: 500px;
+	padding: 50px;
+	color: #000;
+
+}
+.texto-bienvenida{
+	text-align: center;
+	padding-top: 30px,
+	padding-bottom: 30px;
+	color: #0800FA;
+}
+.texto-parrafo{
+	color: black;
+	padding-bottom: 30px;
+}
+.promociones{
+	text-align: center;
+	padding-top: 30px,
+	padding-bottom: 30px;
+	color: #0800FA;
+}
+.mapas-guias{
+	background: #0800FA;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	width: 250px;
+}
+.galeria-turistica{
+	background: #FFAF00;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	width: 250px;
+}
+.mas-informacion{
+	background: #00FF51;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	width: 250px;
+}
+.subtitulo{
+	font-size: 28px;
+	font-weight: bold;
+	color: #CB7307;
+}
+.cuadro-imagen{
+	border: 1px
+	solid #999999;
+	padding: 10px;
+}
+.boton{
+	background: #CB7307;
+	color: #FFF;
+	padding: 8px;
+	border-radius: 5px;
+	float: right;
+}
+<.fondo-footer ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.fondo-footer ul li a{
+	color: #000;
+}
+.titulos-footer{
+	color: #CB7307;
+	font-size: 20px;
+	font-weight: bold;
+}
+.redes-sociales{
+	text-align: right;
+	}
 .seguridad{
 	/* la propiedad background permite colocar un color o imagen de fondo */
 	background: url("img/viaje-seguro.jpg") no-repeat center center;
-	height: 300px;
+	height: 500px;
+	padding: 100px;
+	color: #FFF;
 }
